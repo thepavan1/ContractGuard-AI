@@ -19,21 +19,18 @@ To automatically:
 ---
 
 # 🔁 2. SYSTEM FLOW (END-TO-END)
-Contract Documents → Contract Understanding (LLM)
-                 ↓
-Execution Data → Normalization Pipeline
-                 ↓
-Contract–Execution Alignment Layer
-                 ↓
-Compliance Engine (Rule-Based)
-                 ↓
-Risk Prediction Model (ML)
-                 ↓
-Decision Agent
-                 ↓
-Explanation Engine (LLM)
-                 ↓
-Dashboard / API Output
+```mermaid
+flowchart TD
+    A[Contract Documents] --> B[Contract Understanding LLM]
+    B --> C[Execution Data]
+    C --> D[Normalization Pipeline]
+    D --> E[Contract-Execution Alignment Layer]
+    E --> F[Compliance Engine Rule-Based]
+    F --> G[Risk Prediction Model ML]
+    G --> H[Decision Agent]
+    H --> I[Explanation Engine LLM]
+    I --> J[Dashboard API Output]
+```
 
 ---
 
@@ -59,6 +56,7 @@ Convert unstructured contract text into structured rules.
 
 ### Output Structure
 Task | Deadline | Grace | Penalty | Conditions
+-----|----------|-------|---------|------------
 
 ### Key Challenge
 Contracts are ambiguous and require structured interpretation.
@@ -80,6 +78,7 @@ Standardize real-world execution datasets.
 
 ### Output
 Project ID | Task | Duration | Cost | Resources | Delay Label
+-----------|------|----------|------|-----------|-------------
 
 
 ---
@@ -114,6 +113,7 @@ Detect violations by comparing rules with execution.
 
 ### Output
 Task | Violation Type | Severity | Description
+------|----------------|----------|-------------
 
 ### Important
 Must be deterministic (no randomness).
@@ -151,6 +151,7 @@ Take actions based on system outputs.
 
 ### Output
 Decision | Action | Priority
+---------|--------|----------
 
 ---
 
@@ -272,13 +273,13 @@ Large-scale contract dataset.
 
 # 🔁 5. UNIFIED DATA SCHEMA
 
-Project ID
-Task
-Duration
-Cost
-Delay Label
-Resource Usage
-Risk Factors
+- **Project ID**  
+- **Task**  
+- **Duration**  
+- **Cost**  
+- **Delay Label**  
+- **Resource Usage**  
+- **Risk Factors**  
 
 ---
 

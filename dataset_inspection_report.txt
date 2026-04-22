@@ -1,0 +1,415 @@
+================================================================================
+CONTRACTGUARD AI — DATASET INSPECTION REPORT
+================================================================================
+
+### DATASET 1: CUAD (Contract Understanding Atticus Dataset)
+  CUAD JSON: loaded, top-level keys = ['version', 'data']
+  Number of documents: 510
+  First doc title: LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT
+  Number of paragraphs in first doc: 1
+  First paragraph keys: ['qas', 'context']
+  Context length (chars): 54290
+  Number of QAs in first paragraph: 41
+  First QA keys: ['answers', 'id', 'question', 'is_impossible']
+  First question: Highlight the parts (if any) of this contract related to "Document Name" that should be reviewed by 
+  master_clauses.csv: shape=(510, 83)
+  Columns: ['Filename', 'Document Name', 'Document Name-Answer', 'Parties', 'Parties-Answer', 'Agreement Date', 'Agreement Date-Answer', 'Effective Date', 'Effective Date-Answer', 'Expiration Date', 'Expiration Date-Answer', 'Renewal Term', 'Renewal Term-Answer', 'Notice Period To Terminate Renewal', 'Notice Period To Terminate Renewal- Answer', 'Governing Law', 'Governing Law-Answer', 'Most Favored Nation', 'Most Favored Nation-Answer', 'Competitive Restriction Exception', 'Competitive Restriction Exception-Answer', 'Non-Compete', 'Non-Compete-Answer', 'Exclusivity', 'Exclusivity-Answer', 'No-Solicit Of Customers', 'No-Solicit Of Customers-Answer', 'No-Solicit Of Employees', 'No-Solicit Of Employees-Answer', 'Non-Disparagement', 'Non-Disparagement-Answer', 'Termination For Convenience', 'Termination For Convenience-Answer', 'Rofr/Rofo/Rofn', 'Rofr/Rofo/Rofn-Answer', 'Change Of Control', 'Change Of Control-Answer', 'Anti-Assignment', 'Anti-Assignment-Answer', 'Revenue/Profit Sharing', 'Revenue/Profit Sharing-Answer', 'Price Restrictions', 'Price Restrictions-Answer', 'Minimum Commitment', 'Minimum Commitment-Answer', 'Volume Restriction', 'Volume Restriction-Answer', 'Ip Ownership Assignment', 'Ip Ownership Assignment-Answer', 'Joint Ip Ownership', 'Joint Ip Ownership-Answer', 'License Grant', 'License Grant-Answer', 'Non-Transferable License', 'Non-Transferable License-Answer', 'Affiliate License-Licensor', 'Affiliate License-Licensor-Answer', 'Affiliate License-Licensee', 'Affiliate License-Licensee-Answer', 'Unlimited/All-You-Can-Eat-License', 'Unlimited/All-You-Can-Eat-License-Answer', 'Irrevocable Or Perpetual License', 'Irrevocable Or Perpetual License-Answer', 'Source Code Escrow', 'Source Code Escrow-Answer', 'Post-Termination Services', 'Post-Termination Services-Answer', 'Audit Rights', 'Audit Rights-Answer', 'Uncapped Liability', 'Uncapped Liability-Answer', 'Cap On Liability', 'Cap On Liability-Answer', 'Liquidated Damages', 'Liquidated Damages-Answer', 'Warranty Duration', 'Warranty Duration-Answer', 'Insurance', 'Insurance-Answer', 'Covenant Not To Sue', 'Covenant Not To Sue-Answer', 'Third Party Beneficiary', 'Third Party Beneficiary-Answer']
+  Dtypes:
+Filename                                      object
+Document Name                                 object
+Document Name-Answer                          object
+Parties                                       object
+Parties-Answer                                object
+Agreement Date                                object
+Agreement Date-Answer                         object
+Effective Date                                object
+Effective Date-Answer                         object
+Expiration Date                               object
+Expiration Date-Answer                        object
+Renewal Term                                  object
+Renewal Term-Answer                           object
+Notice Period To Terminate Renewal            object
+Notice Period To Terminate Renewal- Answer    object
+Governing Law                                 object
+Governing Law-Answer                          object
+Most Favored Nation                           object
+Most Favored Nation-Answer                    object
+Competitive Restriction Exception             object
+Competitive Restriction Exception-Answer      object
+Non-Compete                                   object
+Non-Compete-Answer                            object
+Exclusivity                                   object
+Exclusivity-Answer                            object
+No-Solicit Of Customers                       object
+No-Solicit Of Customers-Answer                object
+No-Solicit Of Employees                       object
+No-Solicit Of Employees-Answer                object
+Non-Disparagement                             object
+Non-Disparagement-Answer                      object
+Termination For Convenience                   object
+Termination For Convenience-Answer            object
+Rofr/Rofo/Rofn                                object
+Rofr/Rofo/Rofn-Answer                         object
+Change Of Control                             object
+Change Of Control-Answer                      object
+Anti-Assignment                               object
+Anti-Assignment-Answer                        object
+Revenue/Profit Sharing                        object
+Revenue/Profit Sharing-Answer                 object
+Price Restrictions                            object
+Price Restrictions-Answer                     object
+Minimum Commitment                            object
+Minimum Commitment-Answer                     object
+Volume Restriction                            object
+Volume Restriction-Answer                     object
+Ip Ownership Assignment                       object
+Ip Ownership Assignment-Answer                object
+Joint Ip Ownership                            object
+Joint Ip Ownership-Answer                     object
+License Grant                                 object
+License Grant-Answer                          object
+Non-Transferable License                      object
+Non-Transferable License-Answer               object
+Affiliate License-Licensor                    object
+Affiliate License-Licensor-Answer             object
+Affiliate License-Licensee                    object
+Affiliate License-Licensee-Answer             object
+Unlimited/All-You-Can-Eat-License             object
+Unlimited/All-You-Can-Eat-License-Answer      object
+Irrevocable Or Perpetual License              object
+Irrevocable Or Perpetual License-Answer       object
+Source Code Escrow                            object
+Source Code Escrow-Answer                     object
+Post-Termination Services                     object
+Post-Termination Services-Answer              object
+Audit Rights                                  object
+Audit Rights-Answer                           object
+Uncapped Liability                            object
+Uncapped Liability-Answer                     object
+Cap On Liability                              object
+Cap On Liability-Answer                       object
+Liquidated Damages                            object
+Liquidated Damages-Answer                     object
+Warranty Duration                             object
+Warranty Duration-Answer                      object
+Insurance                                     object
+Insurance-Answer                              object
+Covenant Not To Sue                           object
+Covenant Not To Sue-Answer                    object
+Third Party Beneficiary                       object
+Third Party Beneficiary-Answer                object
+  Missing values:
+Filename                                        0
+Document Name                                   0
+Document Name-Answer                            0
+Parties                                         0
+Parties-Answer                                  1
+Agreement Date                                  0
+Agreement Date-Answer                          45
+Effective Date                                  0
+Effective Date-Answer                         151
+Expiration Date                                 0
+Expiration Date-Answer                        181
+Renewal Term                                    0
+Renewal Term-Answer                           347
+Notice Period To Terminate Renewal              0
+Notice Period To Terminate Renewal- Answer    409
+Governing Law                                   0
+Governing Law-Answer                           76
+Most Favored Nation                             0
+Most Favored Nation-Answer                      0
+Competitive Restriction Exception               0
+Competitive Restriction Exception-Answer        0
+Non-Compete                                     0
+Non-Compete-Answer                              0
+Exclusivity                                     0
+Exclusivity-Answer                              0
+No-Solicit Of Customers                         0
+No-Solicit Of Customers-Answer                  0
+No-Solicit Of Employees                         0
+No-Solicit Of Employees-Answer                  0
+Non-Disparagement                               0
+Non-Disparagement-Answer                        0
+Termination For Convenience                     0
+Termination For Convenience-Answer              0
+Rofr/Rofo/Rofn                                  0
+Rofr/Rofo/Rofn-Answer                           0
+Change Of Control                               0
+Change Of Control-Answer                        0
+Anti-Assignment                                 0
+Anti-Assignment-Answer                          0
+Revenue/Profit Sharing                          0
+Revenue/Profit Sharing-Answer                   0
+Price Restrictions                              0
+Price Restrictions-Answer                       0
+Minimum Commitment                              0
+Minimum Commitment-Answer                       0
+Volume Restriction                              0
+Volume Restriction-Answer                       0
+Ip Ownership Assignment                         0
+Ip Ownership Assignment-Answer                  0
+Joint Ip Ownership                              0
+Joint Ip Ownership-Answer                       0
+License Grant                                   0
+License Grant-Answer                            0
+Non-Transferable License                        0
+Non-Transferable License-Answer                 0
+Affiliate License-Licensor                      0
+Affiliate License-Licensor-Answer               0
+Affiliate License-Licensee                      0
+Affiliate License-Licensee-Answer               0
+Unlimited/All-You-Can-Eat-License               0
+Unlimited/All-You-Can-Eat-License-Answer        0
+Irrevocable Or Perpetual License                0
+Irrevocable Or Perpetual License-Answer         0
+Source Code Escrow                              0
+Source Code Escrow-Answer                       0
+Post-Termination Services                       0
+Post-Termination Services-Answer                0
+Audit Rights                                    0
+Audit Rights-Answer                             0
+Uncapped Liability                              0
+Uncapped Liability-Answer                       0
+Cap On Liability                                0
+Cap On Liability-Answer                         0
+Liquidated Damages                              0
+Liquidated Damages-Answer                       0
+Warranty Duration                               0
+Warranty Duration-Answer                        0
+Insurance                                       0
+Insurance-Answer                                0
+Covenant Not To Sue                             0
+Covenant Not To Sue-Answer                      0
+Third Party Beneficiary                         0
+Third Party Beneficiary-Answer                  0
+  Duplicates: 0
+
+### DATASET 3: Construction Project Management
+  Shape: (1300, 10)
+  Columns: ['Task_ID', 'Task_Duration_Days', 'Labor_Required', 'Equipment_Units', 'Material_Cost_USD', 'Start_Constraint', 'Risk_Level', 'Resource_Constraint_Score', 'Site_Constraint_Score', 'Dependency_Count']
+  Dtypes:
+Task_ID                       object
+Task_Duration_Days             int64
+Labor_Required                 int64
+Equipment_Units                int64
+Material_Cost_USD            float64
+Start_Constraint               int64
+Risk_Level                    object
+Resource_Constraint_Score    float64
+Site_Constraint_Score        float64
+Dependency_Count               int64
+  Missing values:
+Task_ID                      0
+Task_Duration_Days           0
+Labor_Required               0
+Equipment_Units              0
+Material_Cost_USD            0
+Start_Constraint             0
+Risk_Level                   0
+Resource_Constraint_Score    0
+Site_Constraint_Score        0
+Dependency_Count             0
+  Duplicates: 0
+  Sample rows:
+  Task_ID  Task_Duration_Days  Labor_Required  Equipment_Units  Material_Cost_USD  Start_Constraint Risk_Level  Resource_Constraint_Score  Site_Constraint_Score  Dependency_Count
+0      T1                  52              14                6           16789.73                 0     Medium                       0.41                   0.59                 4
+1      T2                  15               2                2           16885.80                 5        Low                       0.75                   0.17                 3
+2      T3                  72              11                1            7978.70                22        Low                       0.96                   0.41                 1
+
+### DATASET 4: Construction Project Performance
+
+  construction_project_dataset.csv: shape=(50000, 19)
+  Columns: ['timestamp', 'temperature', 'humidity', 'vibration_level', 'material_usage', 'machinery_status', 'worker_count', 'energy_consumption', 'task_progress', 'cost_deviation', 'time_deviation', 'safety_incidents', 'equipment_utilization_rate', 'material_shortage_alert', 'risk_score', 'simulation_deviation', 'update_frequency', 'optimization_suggestion', 'performance_score']
+  Dtypes:
+timestamp                      object
+temperature                   float64
+humidity                      float64
+vibration_level               float64
+material_usage                float64
+machinery_status                int64
+worker_count                    int64
+energy_consumption            float64
+task_progress                 float64
+cost_deviation                float64
+time_deviation                float64
+safety_incidents                int64
+equipment_utilization_rate    float64
+material_shortage_alert         int64
+risk_score                    float64
+simulation_deviation          float64
+update_frequency                int64
+optimization_suggestion        object
+performance_score              object
+  Missing values:
+timestamp                     0
+temperature                   0
+humidity                      0
+vibration_level               0
+material_usage                0
+machinery_status              0
+worker_count                  0
+energy_consumption            0
+task_progress                 0
+cost_deviation                0
+time_deviation                0
+safety_incidents              0
+equipment_utilization_rate    0
+material_shortage_alert       0
+risk_score                    0
+simulation_deviation          0
+update_frequency              0
+optimization_suggestion       0
+performance_score             0
+  Duplicates: 0
+  Sample:
+             timestamp  temperature   humidity  vibration_level  material_usage  machinery_status  worker_count  energy_consumption  task_progress  cost_deviation  time_deviation  safety_incidents  equipment_utilization_rate  material_shortage_alert  risk_score  simulation_deviation  update_frequency  optimization_suggestion performance_score
+0  2023-01-01 00:00:00    24.363503  70.834195        29.038952      162.290510                 0            10          394.617852       0.025050     2707.711346       -4.645563                 2                   84.481661                        0   23.181975              0.768037                10  Optimize Material Usage         Excellent
+1  2023-01-01 00:01:00    38.767858  49.671023        26.348582      627.127074                 1            16          334.086917       0.062199     1866.881543       -0.673013                 0                   85.115701                        0   64.242931              6.958721                15  Optimize Material Usage         Excellent
+
+  construction_project_performance_dataset.csv: shape=(10000, 15)
+  Columns: ['Timestamp', 'Sensor_ID', 'Temperature (°C)', 'Humidity (%)', 'Vibration_Level (Hz)', 'Material_Usage (kg)', 'Energy_Consumption (kWh)', 'Worker_Count', 'Task_Progress (%)', 'Safety_Incidents', 'Resource_Utilization (%)', 'Risk_Score', 'Simulation_Accuracy (%)', 'Optimization_Suggestion', 'Performance_Score']
+  Dtypes:
+Timestamp                    object
+Sensor_ID                    object
+Temperature (°C)            float64
+Humidity (%)                float64
+Vibration_Level (Hz)        float64
+Material_Usage (kg)         float64
+Energy_Consumption (kWh)    float64
+Worker_Count                  int64
+Task_Progress (%)           float64
+Safety_Incidents              int64
+Resource_Utilization (%)    float64
+Risk_Score                  float64
+Simulation_Accuracy (%)     float64
+Optimization_Suggestion      object
+Performance_Score            object
+  Missing values:
+Timestamp                   0
+Sensor_ID                   0
+Temperature (°C)            0
+Humidity (%)                0
+Vibration_Level (Hz)        0
+Material_Usage (kg)         0
+Energy_Consumption (kWh)    0
+Worker_Count                0
+Task_Progress (%)           0
+Safety_Incidents            0
+Resource_Utilization (%)    0
+Risk_Score                  0
+Simulation_Accuracy (%)     0
+Optimization_Suggestion     0
+Performance_Score           0
+  Duplicates: 0
+  Sample:
+             Timestamp  Sensor_ID  Temperature (°C)  Humidity (%)  Vibration_Level (Hz)  Material_Usage (kg)  Energy_Consumption (kWh)  Worker_Count  Task_Progress (%)  Safety_Incidents  Resource_Utilization (%)  Risk_Score  Simulation_Accuracy (%)  Optimization_Suggestion Performance_Score
+0  2023-01-01 00:00:00  Sensor_41         26.236204     42.418449             36.499916           674.330112                184.510419            18           0.086506                 0                 86.518381   32.607806                81.458493  Enhance Safety Measures       Exceptional
+1  2023-01-01 00:01:00  Sensor_27         43.521429     39.974726              9.225600           513.363208                 92.667999            79           0.162888                 0                 91.003107   98.116388                83.014287          Adjust Schedule       Exceptional
+
+### DATASET 5: Construction Resource Dataset
+  Shape: (1000, 12)
+  Columns: ['Labor Requirements', 'Equipment Usage', 'Material Quantities', 'Project Duration (days)', 'Resource Allocation Efficiency', 'Schedule Optimization', 'Computation Time (CT)', 'Best Cost (BC)', 'Evaluation Metric (Nfe)', 'Mean Resource Demand', 'SD of Resource Demand', 'Risk Level']
+  Dtypes:
+Labor Requirements                  int64
+Equipment Usage                     int64
+Material Quantities               float64
+Project Duration (days)             int64
+Resource Allocation Efficiency    float64
+Schedule Optimization               int64
+Computation Time (CT)             float64
+Best Cost (BC)                    float64
+Evaluation Metric (Nfe)             int64
+Mean Resource Demand              float64
+SD of Resource Demand             float64
+Risk Level                          int64
+  Missing values:
+Labor Requirements                0
+Equipment Usage                   0
+Material Quantities               0
+Project Duration (days)           0
+Resource Allocation Efficiency    0
+Schedule Optimization             0
+Computation Time (CT)             0
+Best Cost (BC)                    0
+Evaluation Metric (Nfe)           0
+Mean Resource Demand              0
+SD of Resource Demand             0
+Risk Level                        0
+  Duplicates: 0
+  Sample:
+   Labor Requirements  Equipment Usage  Material Quantities  Project Duration (days)  Resource Allocation Efficiency  Schedule Optimization  Computation Time (CT)  Best Cost (BC)  Evaluation Metric (Nfe)  Mean Resource Demand  SD of Resource Demand  Risk Level
+0                 152               21           752.666578                      291                        79.74004                      0             119.105430    9.001976e+05                      180             78.028242              10.530459           0
+1                 142               17          1463.863953                      348                        71.33219                      1             153.138143    1.056578e+06                      182             90.144405              15.429264           2
+
+### DATASET 6: India Road Construction Delay Survey
+  ERROR: 'utf-8' codec can't decode byte 0x92 in position 1682: invalid start byte
+  ERROR loading Cost Overrun Frequency.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+  ERROR loading Severity Scale.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+  ERROR loading Type of Organization.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+  ERROR loading Years of Experience.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+  ERROR loading Respondant Designation.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+  ERROR loading Respondant Qualification.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+  ERROR loading Location of Orgaization.xlsx: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+
+### DATASET 7: DoD US Federal Construction Contracts (FPDS)
+  Shape (first 5000 rows): (5000, 61)
+  Columns (61): ['Contracting Agency ID', 'Contracting Agency Name', 'Contracting Office ID', 'Contracting Office Name', 'Country Where Award was Issued', 'Major Command Name', 'Modification Number', 'PIID', 'Referenced  IDV PIID', 'Referenced IDV Mod Number', 'Transaction Number', 'Date Signed', 'Effective Date', 'Completion Date', 'Est. Ultimate Completion Date', 'Fiscal Year', 'Funding Agency ID', 'Funding Agency Name', 'Funding Department ID', 'Funding Department Name', 'Funding Office ID', 'Funding Office Name', '(Type of IDC)', 'Multiple or Single Award IDV', 'Multiyear Contract Code', 'Type of Contract', 'NAICS Code', 'NAICS Description', 'Principal Place of Performance State Code', 'Principal Place of Performance City Name', 'Principal Place of Performance Country Name', 'Place of Performance Zip Code', 'Product or Service Description', 'Product or Service Code', 'Description of Requirement', 'Award or IDV Type', 'Reason For Modification Description', 'IDV Type', 'Extent Competed', 'Number of Offers Received', 'Treasury Account Symbol Agency Identifier', 'Treasury Account Symbol Main Account Code', 'Treasury Account Symbol Sub Account Code', 'IDV NAICS Code', 'IDV NAICS Description', 'IDV Contracting Agency ID', 'IDV Contracting Agency Name', 'IDV Department ID', 'IDV Department Name', 'IDV Major Program Code', 'IDV Referenced IDV Agency Code', 'IDV Referenced IDV PIID', 'IDV Subcontract Plan', 'IDV Subcontract Plan Description', 'IDV Type Of IDC', 'IDV Type Of IDC Description', 'IDV Who Can Use', 'IDV Who Can Use Description', 'Base and Exercised Options Value', 'Action Obligation', 'Base and All Options Value (Total Contract Value)']
+  Dtypes (first 20):
+Contracting Agency ID               int64
+Contracting Agency Name            object
+Contracting Office ID              object
+Contracting Office Name            object
+Country Where Award was Issued     object
+Major Command Name                 object
+Modification Number                object
+PIID                               object
+Referenced  IDV PIID               object
+Referenced IDV Mod Number          object
+Transaction Number                float64
+Date Signed                        object
+Effective Date                     object
+Completion Date                    object
+Est. Ultimate Completion Date      object
+Fiscal Year                         int64
+Funding Agency ID                  object
+Funding Agency Name                object
+Funding Department ID               int64
+Funding Department Name            object
+  Missing values (top 20):
+IDV Referenced IDV PIID                     5000
+IDV Referenced IDV Agency Code              5000
+(Type of IDC)                               4936
+Multiple or Single Award IDV                4931
+IDV Major Program Code                      4902
+Treasury Account Symbol Sub Account Code    4592
+IDV Type Of IDC Description                 2571
+IDV Type Of IDC                             2571
+IDV Who Can Use Description                 2428
+IDV Who Can Use                             2361
+IDV NAICS Description                       2357
+IDV Department ID                           2346
+IDV Contracting Agency Name                 2346
+IDV Department Name                         2346
+IDV NAICS Code                              2346
+IDV Subcontract Plan                        2346
+IDV Subcontract Plan Description            2346
+Referenced  IDV PIID                        2346
+IDV Type                                    2346
+IDV Contracting Agency ID                   2346
+  Duplicates: 0
+
+### DATASET 9: World Bank Projects & Operations
+  ERROR: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+
+### DATASET 10: World Bank — Procuring Infrastructure PPPs
+  ERROR: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+
+================================================================================
+SUMMARY OF ALL LOADED DATASETS
+================================================================================
+  cuad_master_clauses                           | rows=     510 | cols=  83
+  construction_mgmt                             | rows=   1,300 | cols=  10
+  construction_project_dataset                  | rows=  50,000 | cols=  19
+  construction_project_performance_dataset      | rows=  10,000 | cols=  15
+  construction_resource                         | rows=   1,000 | cols=  12
+  dod_fpds_sample                               | rows=   5,000 | cols=  61
